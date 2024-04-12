@@ -11,3 +11,11 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let currentYear = 2024;
+let yearOfBirth= 1987;
+
+let age = currentYear - yearOfBirth;
+let yearsLeft = 100 - age;
+
+console.log(`età = ${age}, anni mancanti = ${yearsLeft}`);
