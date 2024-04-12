@@ -12,3 +12,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let a= 16160;
+
+let b = Math.floor((a/3600)); // ore
+let c = a-(b*3600);           // avanzo min+sec
+let d =  Math.floor((c/60));  // minuti
+let e = c-(d*60);             // secondi
+
+console.log(`${b} ore, ${d} minuti e ${e} secondi.`)
