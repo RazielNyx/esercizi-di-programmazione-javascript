@@ -17,3 +17,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let a = 44;
+let b = 6;
+let c = Math.ceil(a/b); // file risultanti
+let d = (b*c)-a; //gatti mancanti
+
+console.log(c, d);
