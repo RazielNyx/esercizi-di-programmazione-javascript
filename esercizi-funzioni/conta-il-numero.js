@@ -9,6 +9,15 @@
     Input: numero = 245
     Output: 3 cifre
 
-    
+
   http://www.imparareaprogrammare.it
 */
+
+var n = 1987;
+n = n.toString();
+
+if (n.length > 1) {
+  console.log(`${n.length} cifre`)
+  } else {
+    console.log(`1 cifra`)
+  };
